@@ -103,8 +103,8 @@ export default function Home() {
         </div>
 
         <div className="text-3xl gap-3 m-2 h-[5vh] flex fixed bottom-0 right-0">
-          <FaGithub />
-          <FaMastodon />
+          <a href={'https://github.com/TheAevilon/'} target='_blank' ><FaGithub /></a>
+          <a href={'https://mastodon.social/@aevilon'} target='_blank'> <FaMastodon /></a>
         </div>
       </div>
     </>
